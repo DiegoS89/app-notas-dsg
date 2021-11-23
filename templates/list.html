@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block contenido %}
+
+<table class="center">
+    <tr>
+        <th>Titulo de Nota</th>
+        <th>Cuerpo de Nota</th>
+    </tr>
+    {% for nota in consulta %}
+    <tr>
+        <td>{{nota.tituloNota}}</td>
+        <td>{{nota.cuerpoNota}}</td>
+        <td><a href="/eliminarnota/{{nota.idNota}}">Eliminar</a></td>
+        <td><a href="/editarnota/{{nota.idNota}}">Editar</a></td>
+    </tr>
+    {% endfor %}
+</table>
+
+
+<div>
+    <a class="buton center" href="/" class="w3-btn w3-black">Agregar Nota</a>
+</div>
+
+
+{% endblock %}

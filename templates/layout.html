@@ -1,0 +1,39 @@
+<html lang="en">
+
+{% block head %}
+
+<head>
+    <link rel="stylesheet" href="/static/css/estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+{% endblock %}
+
+{% block body %}
+<body>
+    <div id="page-container">
+        {% block encabezado %}
+        <header>
+            <img src="/static/images/KJup.png" alt="">
+            <H4> Aplicacion Para tomar notas </H4>
+        </header>
+        {% endblock %}
+
+        <div id="content-wrap">
+            {% block contenido %}
+            {% endblock %}
+        </div>
+
+        {% block pie %}
+        <footer>
+            <h6>ABOUT THIS PAGE <a href="/about">About</a></h6>
+        </footer>
+        {% endblock %}
+    </div>
+</body>
+{% endblock %}
+
+
+
+</html>

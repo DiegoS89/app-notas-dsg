@@ -1,0 +1,116 @@
+body {
+    background: #EDF2F4;
+    margin: 0;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    background: #8D99AE;
+    color: white;
+    font-size: 30px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #D80032;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+h6 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form {
+    align-content: center;
+}
+
+img {
+    width: 75px;
+    height: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .buton {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+table {
+    width: 50%;
+    border: 1px solid black;
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }

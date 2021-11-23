@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+
+{% block contenido %}
+
+<div>
+    <form action="/modificar" method="POST">
+        <p>{{nota}}</p>
+        <label for="titulo">Titulo de la Nota</label>
+        <input type="text" id="campotitulo" name="campotitulo" value="{{nota.tituloNota}}">
+        <br>
+        <label for="cuerpo">Nota</label>
+        <input type="text" name="camponota" id="camponota" value="{{nota.cuerpoNota}}">
+        <input type="hidden" name="idnota" value="{{nota.idNota}}">
+        <input type="submit" value="MODIFICAR">
+    </form>
+</div>
+
+
+{% endblock %}
